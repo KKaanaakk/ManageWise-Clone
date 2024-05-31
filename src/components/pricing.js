@@ -1,6 +1,6 @@
 const Pricing = () => {
     return (
-        <section>
+        <section id="pricing">
             <div className="my-20 flex flex-col max-w-screen-2xl mx-auto items-center p-5 space-y-4">
 
                 <h4 className="px-4 py-1 shadow rounded-lg text-[#8247ff] text-xs font-bold border border-[#8147ff1c] ">

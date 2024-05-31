@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import img from "../../public/herosectionimage.webp";
 import { FaArrowAltCircleRight, FaPlayCircle } from "react-icons/fa";
 
@@ -25,7 +25,7 @@ const Hero = () => {
                     </button>
                 </div>
                 <div className="max-w-6xl mb-10 shadow-lg rounded-3xl ">
-                    <img src={img.src} className="w-full h-full" />
+                    <img src={img.src} alt="hero image" className="w-full h-full" />
                 </div>
             </div>
         </section>

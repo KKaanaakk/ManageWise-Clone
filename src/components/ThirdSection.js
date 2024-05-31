@@ -1,6 +1,7 @@
 import { FaBell, FaFire, FaMobileButton } from "react-icons/fa6";
 import { FaTools } from "react-icons/fa";
 import connectanappimg from "../../public/connectanapp.jpg";
+import Image from "next/image";
 const ThirdSectionCard = ({ icon, heading, para }) => {
     return (
         <div className="w-full rounded-3xl bg-[#212121] p-12 flex flex-col justify-center items-center gap-6 text-center">
@@ -29,7 +30,7 @@ const ThirdSectionLower = () => {
                 with a diverse array of widely-used tools and platforms.
             </p>
             <div className="w-full max-w-xl overflow-hidden rounded-t-3xl">
-                <img src={connectanappimg.src} className="w-full" />
+                <Image src={connectanappimg.src} alt="image" width={600} height={500} />
             </div>
         </div>
     );

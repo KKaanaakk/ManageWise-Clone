@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import asset from '../../public/asset 12.png'
 
 const JoinUs = () => {
@@ -26,7 +27,7 @@ const JoinUs = () => {
                             </span>
                         </div>
                         <div className="flex justify-center items-center">
-                            <img src={asset.src} className="max-w-full h-auto" alt="Happy Users" />
+                            <Image src={asset.src} alt="Happy Users" width={500} height={400} />
                         </div>
                     </div>
                 </div>

@@ -4,8 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Image from 'next/image';
-import logo from '../../public/logo.png'; 
-import img from "../../public/herosectionimage.webp";
+import logo from '../../public/logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,14 +15,14 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between items-center w-full p-4 bg-[#FDF2EC]">
-      <img src={logo.src} className="w-52" />
+      <Image src={logo.src} alt="logo" width={200} height={100} />
       <div className="md:hidden">
         <button onClick={toggleMenu} className="text-2xl">
           {isOpen ? <FaTimes /> : <FaBars />}
         </button>
       </div>
       <div className={`h-full flex-col md:flex-row md:flex justify-end items-center gap-4 ${isOpen ? 'flex' : 'hidden'} md:flex`}>
-        <Link  href="#features" className="hover:text-[#8247ff]">
+        <Link href="#features" className="hover:text-[#8247ff]">
           Features
         </Link>
         <div className="h-1 w-1 bg-gray-300 md:hidden" />

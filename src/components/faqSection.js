@@ -1,7 +1,7 @@
 import SingleFaq from "./SingleFaq";
 const Faqs = () => {
   return (
-    <section>
+    <section id="faq">
       <div className="max-w-7xl mx-auto p-10">
         <p className="px-4 bg-white rounded-lg inline-block text-[#8247ff] text-xs font-bold shadow mb-4">
           🙋‍♀️ FAQ
