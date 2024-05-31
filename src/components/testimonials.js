@@ -24,7 +24,7 @@ const Testimonials = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                             <div className="max-w-sm rounded-3xl border border-gray-200 shadow-md p-6">
                                 <p className="text-black text-xl font-medium mb-4">
-                                    "Using this product has been a game-changer for our team. The collaboration features and intuitive interface have greatly improved our productivity."
+                                &apos;Using this product has been a game-changer for our team. The collaboration features and intuitive interface have greatly improved our productivity.&apos;
                                 </p>
                                 <div className="flex items-center">
                                     <img src={asset8.src} className="w-12 h-w-12" />
@@ -36,7 +36,7 @@ const Testimonials = () => {
                             </div>
                             <div className="max-w-sm rounded-3xl border border-gray-200 shadow-md p-6">
                                 <p className="text-black text-xl font-medium mb-4">
-                                    "Manage Wise transformed our team's productivity. The intuitive interface and powerful features have made a significant impact on our daily operations"
+                                &apos;Manage Wise transformed our team&apos;s productivity. The intuitive interface and powerful features have made a significant impact on our daily operations&apos;
                                 </p>
                                 <div className="flex items-center">
                                     <img src={asset7.src} className="w-12 h-w-12" />
@@ -49,7 +49,7 @@ const Testimonials = () => {
 
                             <div className="max-w-sm rounded-3xl border border-gray-200 shadow-md p-6">
                                 <p className="text-black text-xl font-medium mb-4">
-                                    "Using this product has been a game-changer for our team. The collaboration features and intuitive interface have greatly improved our productivity."
+                                &apos;Using this product has been a game-changer for our team. The collaboration features and intuitive interface have greatly improved our productivity.&apos;
                                 </p>
                                 <div className="flex items-center">
                                     <img src={asset9.src} className="w-12 h-w-12" />
@@ -62,7 +62,7 @@ const Testimonials = () => {
 
                             <div className="max-w-sm rounded-3xl border border-gray-200 shadow-md p-6">
                                 <p className="text-black text-xl font-medium mb-4">
-                                    "Using this product has been a game-changer for our team. The collaboration features and intuitive interface have greatly improved our productivity."
+                                &apos;Using this product has been a game-changer for our team. The collaboration features and intuitive interface have greatly improved our productivity.&apos;
                                 </p>
                                 <div className="flex items-center">
                                     <img src={asset10.src} className="w-12 h-w-12" />

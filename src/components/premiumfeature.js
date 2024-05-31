@@ -10,11 +10,11 @@ const PremiumFeature = () => {
                     🔥 PREMIER FEATURES
                 </h4>
                 <h1 className="px-4 text-center text-3xl font-semibold text-black sm:text-5xl">
-                    Discover our product's{" "}
+                    Discover our product&apos;s{" "}
                     <span className="text-[#fe8162]">Capabilities</span>{" "}
                 </h1>
                 <p className="max-w-2xl text-gray-500 text-xl text-center font-medium">
-                    Don't settle for mediocrity - embrace the future of management with
+                    Don&apos;t settle for mediocrity - embrace the future of management with
                     Manage Wise.
                 </p>
 

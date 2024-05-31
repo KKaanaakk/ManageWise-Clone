@@ -7,7 +7,7 @@ const JoinUs = () => {
                 <div className="flex flex-col md:flex-row items-center justify-between p-5 md:p-20">
                     <div className="w-full md:w-1/2 text-left">
                         <h4 className="px-4 py-1 shadow rounded-lg inline-block text-[#8247ff] text-xs font-bold border border-[#8147ff1c]">
-                            👋 DON'T MISS OUT
+                            👋 DON&apos;T MISS OUT
                         </h4>
                         <h2 className="text-4xl font-bold my-4">
                             Unleash your <span className="text-orange-500">Potential</span> with us
